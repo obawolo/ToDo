@@ -32,7 +32,6 @@ function App() {
     for (let i =0 ; i <todo.length; i++){
       list.push(        
         <div className="list">
-        <input type = "checkbox"></input>
         <button type="button" onClick={() => {
           let newTodo = [...todo];
           newTodo.splice(i, 1);
